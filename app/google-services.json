@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "91972049159",
+    "project_id": "quizzed-bff53",
+    "storage_bucket": "quizzed-bff53.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91972049159:android:2bd34131d6663c97ef8da2",
+        "android_client_info": {
+          "package_name": "com.example.quizzed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ6S0vSmQqxzDmbGUHPgaEWty-nAI5QW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
