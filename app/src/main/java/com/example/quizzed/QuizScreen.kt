@@ -17,7 +17,7 @@ import androidx.navigation.NavController
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun QuizScreen(navController: NavController, selectedDate: String) {
-    // QuizData.kt માંથી ડેટા મેળવો
+    
     val questions = QuizRepository.quizData[selectedDate] ?: QuizRepository.quizData["10-4-2026"]!!
 
     var currentQuestionIndex by remember { mutableIntStateOf(0) }
@@ -38,7 +38,7 @@ fun QuizScreen(navController: NavController, selectedDate: String) {
                 .padding(20.dp),
             verticalArrangement = Arrangement.SpaceBetween
         ) {
-            // પ્રશ્ન અને ઓપ્શન સેક્શન
+            
             Column {
                 Text(
                     text = "${currentQuestionIndex + 1}. ${questions[currentQuestionIndex].questionText}",
@@ -63,7 +63,7 @@ fun QuizScreen(navController: NavController, selectedDate: String) {
                 }
             }
 
-            // બટન સેક્શન (Previous / Next / Submit)
+        
             Row(
                 modifier = Modifier.fillMaxWidth().padding(bottom = 20.dp),
                 horizontalArrangement = Arrangement.spacedBy(10.dp)
@@ -83,7 +83,7 @@ fun QuizScreen(navController: NavController, selectedDate: String) {
                 Button(
                     onClick = {
                         if (isLast) {
-                            // રિઝલ્ટ સ્ક્રીન માટે ડેટા ગ્લોબલ વેરીએબલ્સમાં સેવ કરો
+                        
                             finalQuestions = questions
                             finalUserAnswers = userAnswers.toMutableList()
 
