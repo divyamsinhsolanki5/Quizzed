@@ -36,8 +36,6 @@ fun ResultScreen(navController: NavController, score: Int, total: Int) {
             Spacer(modifier = Modifier.height(10.dp))
             Text(text = "Your Score : $score / $total", color = Color.White, fontSize = 28.sp, fontWeight = FontWeight.Bold)
         }
-
-        
         Column(modifier = Modifier.fillMaxWidth().weight(0.65f).padding(16.dp)) {
             Text(text = "Review Answers", fontSize = 20.sp, fontWeight = FontWeight.Bold)
             Divider(modifier = Modifier.padding(vertical = 10.dp))
