@@ -52,7 +52,6 @@ class MainActivity : ComponentActivity() {
 
                     QuizScreen(navController = navController, selectedDate = selectedDate)
                 }
-                // quiz_screen
                 composable(
                     route = "result_screen/{score}/{total}",
                     arguments = listOf(
