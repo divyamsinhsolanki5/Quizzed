@@ -52,7 +52,7 @@ class MainActivity : ComponentActivity() {
 
                     QuizScreen(navController = navController, selectedDate = selectedDate)
                 }
-                // આ કોડ quiz_screen ના બ્લોક પૂરો થાય પછી તરત ઉમેરો
+                // quiz_screen
                 composable(
                     route = "result_screen/{score}/{total}",
                     arguments = listOf(
