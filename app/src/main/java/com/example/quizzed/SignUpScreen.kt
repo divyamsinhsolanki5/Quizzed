@@ -15,7 +15,7 @@ import com.google.firebase.auth.FirebaseAuth
 
 @Composable
 fun SignUpScreen(navController: NavController) {
-    // ૧. ઇનપુટ માટેના સ્ટેટ વેરીએબલ્સ
+    
     var emailInput by remember { mutableStateOf("") }
     var passwordInput by remember { mutableStateOf("") }
     var confirmPassword by remember { mutableStateOf("") }
