@@ -13,7 +13,7 @@ data class Question(
 var finalQuestions = listOf<Question>()
 var finalUserAnswers = mutableListOf<Int?>()
 
-// ૩. બધી જ ૫ તારીખોનો ડેટા
+
 object QuizRepository {
     val quizData = mapOf(
         "11-4-2026" to listOf(
