@@ -2,7 +2,7 @@ package com.example.quizzed
 
 
 
-// ૧. આ પ્રશ્નોનું માળખું છે
+
 data class Question(
     val questionText: String,
     val options: List<String>,
