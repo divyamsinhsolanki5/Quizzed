@@ -9,7 +9,7 @@ data class Question(
     val correctAnswer: Int
 )
 
-// ૨. આ ગ્લોબલ વેરીએબલ્સ છે, જે રીઝલ્ટ બતાવવા માટે જરૂરી છે
+
 var finalQuestions = listOf<Question>()
 var finalUserAnswers = mutableListOf<Int?>()
 
