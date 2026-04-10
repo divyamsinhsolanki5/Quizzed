@@ -25,7 +25,7 @@ fun ProfileScreen(navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF121212)) // ડાર્ક બેકગ્રાઉન્ડ
+            .background(Color(0xFF121212))
             .padding(20.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
