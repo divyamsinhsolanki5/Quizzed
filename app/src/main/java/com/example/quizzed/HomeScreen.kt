@@ -26,7 +26,7 @@ import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*
 
-// કાર્ડ માટે ડેટા ક્લાસ
+
 data class QuizCardData(
     val title: String,
     val date: String,
