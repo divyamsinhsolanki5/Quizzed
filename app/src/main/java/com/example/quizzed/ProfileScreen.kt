@@ -17,7 +17,7 @@ import com.google.firebase.auth.FirebaseAuth
 
 @Composable
 fun ProfileScreen(navController: NavController) {
-    // ૧. Firebase માંથી લોગિન થયેલા યુઝરની વિગતો મેળવો
+
     val auth = FirebaseAuth.getInstance()
     val user = auth.currentUser
     val userEmail = user?.email ?: "નથી મળ્યું"
