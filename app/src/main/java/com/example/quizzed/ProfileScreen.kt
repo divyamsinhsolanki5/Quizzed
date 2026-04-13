@@ -49,7 +49,7 @@ fun ProfileScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // ૩. યુઝરની સાચી ઈમેલ (અહીં હવે bapu555@gmail.com જેવું દેખાશે)
+        
         Text(
             text = "Email Address",
             color = Color.LightGray,
