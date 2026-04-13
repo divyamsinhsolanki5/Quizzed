@@ -31,7 +31,7 @@ fun ProfileScreen(navController: NavController) {
     ) {
         Spacer(modifier = Modifier.height(50.dp))
 
-        // ૨. પ્રોફાઈલ આઈકોન
+
         Box(
             modifier = Modifier
                 .size(120.dp)
