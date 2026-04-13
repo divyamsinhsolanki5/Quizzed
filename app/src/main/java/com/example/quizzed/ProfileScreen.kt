@@ -64,7 +64,7 @@ fun ProfileScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(40.dp))
 
-        // ૪. લોગ આઉટ બટન
+    
         Button(
             onClick = {
                 auth.signOut() // Firebase માંથી સાઈન આઉટ
