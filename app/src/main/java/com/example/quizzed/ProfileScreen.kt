@@ -69,7 +69,7 @@ fun ProfileScreen(navController: NavController) {
             onClick = {
                 auth.signOut() // Firebase માંથી સાઈન આઉટ
                 navController.navigate("login") {
-                    // પાછા જતી વખતે બધું ક્લિયર કરી દેશે
+        
                     popUpTo("home") { inclusive = true }
                 }
             },
