@@ -56,7 +56,7 @@ fun ProfileScreen(navController: NavController) {
             fontSize = 14.sp
         )
         Text(
-            text = userEmail, // મુજબ જૂની ઈમેલ બદલી નાખી છે
+            text = userEmail, 
             color = Color.White,
             fontSize = 20.sp,
             fontWeight = FontWeight.Bold
