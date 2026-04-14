@@ -67,7 +67,7 @@ fun ProfileScreen(navController: NavController) {
     
         Button(
             onClick = {
-                auth.signOut() // Firebase માંથી સાઈન આઉટ
+                auth.signOut() 
                 navController.navigate("login") {
         
                     popUpTo("home") { inclusive = true }
