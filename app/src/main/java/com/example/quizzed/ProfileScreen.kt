@@ -81,7 +81,7 @@ fun ProfileScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(10.dp))
 
-        // પાછા જવા માટેનું બટન
+    
         TextButton(onClick = { navController.popBackStack() }) {
             Text("Back to Home", color = Color.Cyan)
         }
