@@ -48,7 +48,7 @@ fun LoginScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(10.dp))
 
-        // ૩. પાસવર્ડ ઇનપુટ
+        
         OutlinedTextField(
             value = passwordInput,
             onValueChange = { passwordInput = it },
