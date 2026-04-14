@@ -38,7 +38,7 @@ fun LoginScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // ૨. ઈમેલ ઇનપુટ
+        
         OutlinedTextField(
             value = emailInput,
             onValueChange = { emailInput = it },
