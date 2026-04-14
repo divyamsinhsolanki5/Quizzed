@@ -15,7 +15,7 @@ import com.google.firebase.auth.FirebaseAuth
 
 @Composable
 fun LoginScreen(navController: NavController) {
-    // ૧. સ્ટેટ વેરીએબલ્સ (ઈમેલ અને પાસવર્ડ સ્ટોર કરવા માટે)
+    
     var emailInput by remember { mutableStateOf("") }
     var passwordInput by remember { mutableStateOf("") }
 
