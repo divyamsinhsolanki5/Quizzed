@@ -59,7 +59,7 @@ fun LoginScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // ૪. લોગિન બટન (Firebase લોજિક સાથે)
+        
         Button(
             onClick = {
                 if (emailInput.isNotEmpty() && passwordInput.isNotEmpty()) {
