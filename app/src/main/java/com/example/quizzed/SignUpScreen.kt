@@ -39,7 +39,7 @@ fun SignUpScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // ૨. ઈમેલ બોક્સ
+        
         OutlinedTextField(
             value = emailInput,
             onValueChange = { emailInput = it },
