@@ -72,7 +72,7 @@ fun LoginScreen(navController: NavController) {
                                     popUpTo("login") { inclusive = true }
                                 }
                             } else {
-                                // જો ભૂલ આવે તો યુઝરને જણાવો
+                                
                                 Toast.makeText(context, "Error: ${task.exception?.message}", Toast.LENGTH_LONG).show()
                             }
                         }
