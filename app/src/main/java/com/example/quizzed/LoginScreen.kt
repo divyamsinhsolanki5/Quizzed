@@ -87,7 +87,7 @@ fun LoginScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(10.dp))
 
-        // ૫. રજીસ્ટ્રેશન માટેનું બટન
+        
         TextButton(onClick = { navController.navigate("signup") }) {
             Text("Don't have an account? Sign Up")
         }
