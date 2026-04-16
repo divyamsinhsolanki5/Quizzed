@@ -66,7 +66,7 @@ fun LoginScreen(navController: NavController) {
                     auth.signInWithEmailAndPassword(emailInput, passwordInput)
                         .addOnCompleteListener { task ->
                             if (task.isSuccessful) {
-                                // લોગિન સફળ થાય તો હોમ સ્ક્રીન પર જાઓ
+                                
                                 Toast.makeText(context, "Welcome!", Toast.LENGTH_SHORT).show()
                                 navController.navigate("home") {
                                     popUpTo("login") { inclusive = true }
