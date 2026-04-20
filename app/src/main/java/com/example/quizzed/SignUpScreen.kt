@@ -60,7 +60,7 @@ fun SignUpScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(10.dp))
 
-        // ૪. કન્ફર્મ પાસવર્ડ બોક્સ
+        
         OutlinedTextField(
             value = confirmPassword,
             onValueChange = { confirmPassword = it },
