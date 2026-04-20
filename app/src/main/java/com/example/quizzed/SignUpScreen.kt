@@ -71,7 +71,7 @@ fun SignUpScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // ૫. SIGN UP બટન (Firebase રજીસ્ટ્રેશન લોજિક)
+        
         Button(
             onClick = {
                 if (emailInput.isNotEmpty() && passwordInput.isNotEmpty()) {
