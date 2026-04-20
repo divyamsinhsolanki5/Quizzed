@@ -49,7 +49,7 @@ fun SignUpScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(10.dp))
 
-        // ૩. પાસવર્ડ બોક્સ
+        
         OutlinedTextField(
             value = passwordInput,
             onValueChange = { passwordInput = it },
