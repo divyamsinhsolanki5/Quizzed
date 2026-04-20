@@ -34,7 +34,7 @@ fun SignUpScreen(navController: NavController) {
             text = "CREATE ACCOUNT",
             fontSize = 28.sp,
             fontWeight = FontWeight.Bold,
-            color = Color(0xFF4CAF50) // ગ્રીન કલર
+            color = Color(0xFF4CAF50) 
         )
 
         Spacer(modifier = Modifier.height(20.dp))
