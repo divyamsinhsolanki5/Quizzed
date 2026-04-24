@@ -76,7 +76,7 @@ fun SignUpScreen(navController: NavController) {
             onClick = {
                 if (emailInput.isNotEmpty() && passwordInput.isNotEmpty()) {
                     if (passwordInput == confirmPassword) {
-                        // Firebase માં નવો યુઝર બનાવો
+                        
                         auth.createUserWithEmailAndPassword(emailInput, passwordInput)
                             .addOnCompleteListener { task ->
                                 if (task.isSuccessful) {
