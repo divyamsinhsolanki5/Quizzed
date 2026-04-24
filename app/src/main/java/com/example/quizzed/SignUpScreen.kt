@@ -104,7 +104,7 @@ fun SignUpScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(10.dp))
 
-        // લોગિન પર પાછા જવા માટે
+        
         TextButton(onClick = { navController.popBackStack() }) {
             Text("Already have an account? Login")
         }
