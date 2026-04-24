@@ -81,7 +81,7 @@ fun SignUpScreen(navController: NavController) {
                             .addOnCompleteListener { task ->
                                 if (task.isSuccessful) {
                                     Toast.makeText(context, "Account Created Successfully!", Toast.LENGTH_SHORT).show()
-                                    // એકાઉન્ટ બન્યા પછી સીધા હોમ પેજ પર
+                                
                                     navController.navigate("home") {
                                         popUpTo("signup") { inclusive = true }
                                     }
