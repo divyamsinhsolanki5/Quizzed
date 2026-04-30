@@ -32,7 +32,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         val notification = NotificationCompat.Builder(this, channelId)
             .setContentTitle(title)
             .setContentText(body)
-            .setSmallIcon(android.R.drawable.ic_dialog_info) // આઈકોન
+            .setSmallIcon(android.R.drawable.ic_dialog_info) 
             .setAutoCancel(true)
             .build()
 
