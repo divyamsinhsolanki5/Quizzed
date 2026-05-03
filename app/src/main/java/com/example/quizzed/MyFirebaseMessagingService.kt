@@ -39,3 +39,4 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         notificationManager.notify(1, notification)
     }
 }
+
